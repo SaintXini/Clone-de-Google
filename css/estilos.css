@@ -64,12 +64,3 @@ nav .nav-login{
 nav .nav-login:hover{
     box-shadow: 0 0 3px var(--color-azul);
 }
-
-section p{
-    width: 150px;
-    height: 150px;
-    background-color: aqua;
-    padding: 5px;
-    overflow:  auto;
-    writing-mode: sideways-lr;
-}
