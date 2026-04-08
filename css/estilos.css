@@ -68,6 +68,83 @@ nav .nav-login:hover{
     box-shadow: 0 0 3px var(--color-azul);
 }
 
+/* ESTILOS DE LA PAGINA PRINCIPAL O MAIN 
+=======================*/
+main{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    text-align: center;
+}
+
+.buscador-bar .label-buscador{
+    display: block;
+    border: 1px solid var(--color-gris);
+    padding: 10px 15px;
+    border-radius: 100px;
+    width: 584px;
+    overflow: hidden;
+}
+
+.buscador-bar .label-buscador:hover{
+    box-shadow: 0 0 3px var(--color-gris);
+}
+
+.buscador-bar .label-buscador img{
+    vertical-align: middle;
+}
+
+.label-buscador .icon-buscar, .label-buscador  input{
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.label-buscador div{
+    float: right;
+}
+
+.label-buscador div a{
+    display: inline-block;
+}
+
+.label-buscador input{
+    font-size: 16px;
+    border: none;
+    width: 80%;
+}
+
+.label-buscador input:focus{
+    outline: none;
+}
+
+/* EStilo de los botones */
+
+.botones{
+    margin-top: 30px;
+}
+
+.botones button{
+    all: unset;
+    padding: 10px 20px;
+    background-color: var(--color-claro);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: var(--color-negro);
+}
+
+.botones button:hover{
+    outline: 1px solid var(--color-gris);
+    color: var(--color-negro);
+}
+
+.botones p{
+    text-align: center;
+    font-size: 14px;
+}
 
 /* ESTILOS DE FOOTER 
 =======================*/
